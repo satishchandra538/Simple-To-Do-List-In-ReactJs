@@ -1,0 +1,60 @@
+body{
+  background: #345;
+}
+
+.form{
+  margin: 20px auto;
+  text-align: center;
+}
+.form input{
+  background-color: silver;
+  border:none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 30px;
+  color: white;
+  font-weight: 500;
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: 500px;
+  color: rgb(8, 43, 34);
+}
+.form input:focus{
+  outline: none;
+}
+.form button{
+  margin-left: 5px;
+  background-color: tomato;
+  height: 32px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  width: 70px;
+  font-size: 24px;
+  font-weight: 500px;
+  text-align: center;
+}
+.form button :focus{
+  outline: none;
+}
+.list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.list-item{
+  position: relative;
+  background: white;
+  width: 400px;
+  padding-left: 10px;
+  margin-top: 5px;
+  border-radius: 4px;;
+}
+.delete{
+  position: relative;
+  float: right;
+  margin-right: 10px;
+}
